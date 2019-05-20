@@ -2633,7 +2633,7 @@ nav li { position: relative; }
 
 .font-bold, .box-title, .box-type-4 .sm-box-text h5 { font-family: 'Alegreya Sans'; font-weight: 700; }
 
-.font-cond, .box-title.xs, .box-title.sm, .box-title.md, .box-title.lg, .box-subtitle, .price-sm-item { font-family: 'Alegreya Sans'; font-weight: 700; }
+.font-cond, .box-title.xs, .box-title.sm, .box-title.md, .box-title.lg, .box-subtitle, .price-sm-item { font-family: 'Alegreya Sans'; font-weight: 100; }
 
 .font-light, .box-nav li a, .box-text p { font-family: 'Alegreya Sans'; font-weight: 300; }
 
@@ -2707,7 +2707,7 @@ nav li { position: relative; }
 
 .box-title { font-size: 31px; line-height: 49px; padding-bottom: 10px; letter-spacing: 3.8px; text-transform: uppercase; color: #fff; }
 .box-title.xs { font-size: 32px; line-height: 40px; letter-spacing: 5px; letter-spacing: 15px; }
-.box-title.sm { font-size: 88px; line-height: 137px; letter-spacing: 50px; }
+.box-title.sm { font-size: 88px; line-height: 137px; letter-spacing: 10px; }
 .box-title.md { font-size: 93px; line-height: 96px; letter-spacing: 42px; padding-bottom: 20px; }
 .box-title.lg { font-size: 134px; line-height: 137px; margin-left: -215px; letter-spacing: 50px; padding-bottom: 25px; }
 
@@ -2872,7 +2872,7 @@ nav li { position: relative; }
   .price-sm-item { padding: 40px 0px 0px 30px; }
   .price-number span { width: 80px; height: 80px; line-height: 80px; font-size: 30px; }
   .box-type-7 .text .box-title { letter-spacing: 35px; margin-left: 35px; }
-  .box-title.sm { letter-spacing: 35px; line-height: 88px; margin-left: 35px; }
+  .box-title.sm { letter-spacing: 10px; line-height: 88px; margin-left: 35px; }
   .box-type-7 .column-50 { padding: 0px 20px; z-index: 6; }
   .point-laptop { display: none; }
   .box-nav ul { padding: 40px 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow-y: auto; z-index: 50; }
@@ -2880,7 +2880,7 @@ nav li { position: relative; }
   .onepage-box.style-2 .box-nav ul { background: #3f2b2b; }
   .box-nav li { display: block; } }
 @media (max-width: 768px) { .box-container { padding-top: 80px; }
-  .box-title.lg, .box-title.md, .box-title.sm { letter-spacing: 35px; font-size: 64px; line-height: 60px; }
+  .box-title.lg, .box-title.md, .box-title.sm { letter-spacing: 10px; font-size: 64px; line-height: 60px; }
   .box-item .number { font-size: 120px; line-height: 90px; letter-spacing: 3px; }
   .box-type-4 .column-50 { width: 100%; margin-bottom: 35px; }
   .box-type-4 .sm-box-text { min-height: 100%; }
