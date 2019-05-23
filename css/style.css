@@ -2667,7 +2667,7 @@ nav li { position: relative; }
 .box-nav { position: relative; display: inline-block; padding: 45px 0px; overflow: hidden; }
 .box-nav ul { display: block; -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); transform: translateX(100%); -webkit-transition: all 0.55s ease-out; -moz-transition: all 0.55s ease-out; -ms-transition: all 0.55s ease-out; transition: all 0.55s ease-out; }
 .box-nav li { position: relative; display: inline-block; margin: 0 20px; }
-.box-nav li a { color: rgba(255, 255, 255, 0.5); font-size: 19px; line-height: 60px; }
+.box-nav li a { color: #d1d1d1; font-size: 19px; line-height: 60px; }
 .box-nav li a:hover, .box-nav li a.active { color: #fff; }
 
 .box-nav.slide ul { -webkit-transform: translateX(0%); -moz-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); }
@@ -2688,7 +2688,7 @@ nav li { position: relative; }
 
 .hold-slide.gallery-slide-1 { padding-top: 110px; }
 
-.hold-slide .swiper-slide { max-width: 945px; }
+.hold-slide .swiper-slide { max-width: 945px; margin: 0 auto;}
 
 .pagination.style-type-3 { position: absolute; left: 0px; top: 50px; bottom: auto; width: 100%; }
 .pagination.style-type-3 .swiper-pagination-bullet { width: 12px; height: 12px; background: rgba(255, 255, 255, 0.2); margin: 0px 8px; vertical-align: middle; -webkit-transition: margin 0.35s ease-out; -moz-transition: margin 0.35s ease-out; -ms-transition: margin 0.35s ease-out; transition: margin 0.35s ease-out; }
@@ -2714,7 +2714,7 @@ nav li { position: relative; }
 .box-subtitle { font-size: 32px; letter-spacing: 5px; line-height: 40px; text-transform: uppercase; color: #fff; }
 
 .box-text { position: relative; }
-.box-text p { font-size: 17px; line-height: 32px; color: rgba(255, 255, 255, 0.5); }
+.box-text p { font-size: 17px; line-height: 32px; color: #d1d1d1; }
 
 .box-item { position: relative; width: 100%; display: inline-block; }
 .box-item .number { position: absolute; font-size: 334px; line-height: 210px; text-shadow: 0px 30px 150px rgba(2, 2, 2, 0.75); letter-spacing: -18px; color: rgba(255, 255, 255, 0.1); }
