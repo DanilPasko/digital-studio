@@ -16,8 +16,12 @@ $(function(){
 	$(scrollLinkSelector).on('click', function(){
 		setImmediateAnchor($(this), 800);
 		$('.box-nav ul li a').removeClass('active');
-		  $(this).addClass('active');
-			 $('.box-nav').removeClass('slide');
+		  	$(this).addClass('active');
+	  		
+	  		if ($(window).width() <= 992){
+	  			$('.box-nav').removeClass('slide');
+	  		};
+	  		
 	          $('.add-nav-link').removeClass('act');
 		return false;
 	});
