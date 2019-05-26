@@ -876,13 +876,6 @@ nav li { position: relative; }
 .folow.color-style a.fa-pinterest:after { color: #c24149; }
 .folow.color-style a:hover { background: #fff; }
 
-footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
-.footer-txt {font-family: 'Alegreya Sans';font-weight: 300;color: #d1d1d1;font-size: 18px;line-height: 1.6;}
-.footer-cont {padding: 0 5px;color: #d1d1d1;}
-.footer-cont:hover {color: #fff;}
-.footer-link {color: #d1d1d1;}
-.footer-link:hover {color: #ff3838;}
-
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 11. POPUP & PANEL*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -2798,7 +2791,7 @@ footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
 .price-sm-item .title h6 { font-size: 18px; line-height: 20px; text-transform: uppercase; letter-spacing: 5px; }
 .price-sm-item .title b { display: block; font-size: 66px; line-height: 66px; }
 
-.box-type-7 { text-align: center; padding: 140px 0px 50px; }
+.box-type-7 { text-align: center; padding: 140px 0px 80px;}
 .box-type-7 .number { left: 50%; top: 0px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 .box-type-7 .box-title { z-index: 5; position: relative; padding-bottom: 0px; }
 .box-type-7 .box-subtitle { padding-bottom: 20px; z-index: 5; position: relative; }
@@ -2811,8 +2804,6 @@ footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
 .box-type-7 .link { position: absolute; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); bottom: -25px; z-index: 5; }
 .box-type-7 .button-type-2.style-2:after, .box-type-7 .button-type-2.style-2:before, .box-type-7 .button-type-2.style-2 span:after, .box-type-7 .button-type-2.style-2 span:before { background: #ff3838; }
 .box-type-7 .button-type-2.style-2:hover { color: #ff3838; }
-
-
 
 .point-laptop { width: 230px; height: 230px; background: #fe3838; position: absolute; right: 191px; top: -35px; border-radius: 50%; }
 
@@ -2847,7 +2838,7 @@ footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
   .box-type-6 { margin-bottom: 200px; }
   .box-type-6 .number { right: 10px; }
   .price-number span { right: 20px; }
-  .box-type-7 { margin-bottom: 0; }
+  .box-type-7 { margin-bottom: 200px; }
   .box-type-7 .image { min-width: 100%; margin-left: 0px; }
   .box-type-7 .text { margin-top: -120px; }
   .point-laptop { width: 130px; height: 130px; right: 115px; } }
@@ -2921,7 +2912,7 @@ footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
   .box-title.sm { margin-left: 0px; }
   .box-type-7 .text { margin-top: 0px; display: inline-block; padding: 0px 30px 60px; }
   .box-type-7 .column-50 { padding: 0px 0px 30px; }
-  .box-type-7 { margin-bottom: 0px; }
+  .box-type-7 { margin-bottom: 130px; }
   .box-type-7 .text .box-title { letter-spacing: 5px; margin-left: 0px; }
   .box-type-7 .square-box { display: none; }
   .button-type-2.style-2 { letter-spacing: 3px; } }
@@ -3942,3 +3933,17 @@ body.overflowh { overflow: hidden; }
   .index-contact-form .questions .input-control { font-size: 20px; }
   .index-contact-form .h3-index { font-size: 30px; line-height: 30px; } }
 @media (max-height: 735px) { .index-slider-container { min-height: 400px; } }
+
+/*cтили футера*/
+footer {background-color: #0b0e24; text-align: center; padding: 20px 0;}
+.footer-txt {font-family: 'Alegreya Sans';font-weight: 300;color: #d1d1d1;font-size: 18px;line-height: 1.6;}
+.footer-cont {padding: 0 5px;color: #d1d1d1;}
+.footer-cont:hover {color: #fff;}
+.footer-link {color: #d1d1d1;}
+.footer-link:hover {color: #ff3838;}
+
+/*стили для формы*/
+.effect-push {background-color: rgba(0,0,0,0) !important;}
+body.overflow {max-height: 100vh;}
+.container-perspective.open-bottom {max-height: 100vh;}
+.container-perspective.open-bottom .effect-push {max-height: 100vh;}
